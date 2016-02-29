@@ -1,14 +1,31 @@
 body{
-	background-color: aqua;
+	background-color: #1b2326;
+	color:white;
 
 }
 h1{
-	color: blue
-	margin-left: 20px;
+	color:white;
 }
-.btn {
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
+
+h3{
+	color:white;
+}
+
+h4{
+	color:#919699;
+	font-weight: 200
+}
+
+h5{
+	color:#1d9ba4;
+	font-weight: 200
+}
+
+section{
+	display:inline-block;
+}
+
+button {
   border-radius: 0px;
   font-family: Arial;
   color: #ffffff;
@@ -18,7 +35,7 @@ h1{
   text-decoration: none;
 }
 
-.btn:hover {
+button:hover {
   background: #1bf5f5;
   text-decoration: none;
 }
