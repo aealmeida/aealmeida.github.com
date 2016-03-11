@@ -1,35 +1,74 @@
 body{
 	background-color: #1b2326;
 	color:white;
-
+	font-family:"LFT Etica";
+	text-align: center;
 }
+
+#page-wrap {
+	position: relative;
+	width: 1000px;
+	margin: auto;
+	text-align: left;
+}
+
 h1{
 	color:white;
+	font-family: QuatroSlab;
+	font-size: 36px;
 }
 
 h3{
 	color:white;
+	font-family: QuatroSlab;
+	font-style: "regular";
+	font-size: 24px;
 }
 
 h4{
 	color:#919699;
-	font-weight: 200
+	font-weight: 200;
+	font-style: "Book";
+	font-size: 16px;
 }
 
 h5{
-	color:#1d9ba4;
-	font-weight: 200
+	color:#1fbec0;
+	font-weight: 200;
+	font-style: "regular";
+	font-size: 16px;
+}
+
+p{
+	color:#abadad;
+	font-style: "regular";
+	font-size: 16px;
+	line-height: 24px;
 }
 
 section{
 	display:inline-block;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+hr{
+	border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+a{
+	color:#02CACA;
+	text-decoration:none;
 }
 
 button {
   border-radius: 0px;
-  font-family: Arial;
+  font-style: "semibold";
   color: #ffffff;
-  font-size: 16px;
+  font-size: 14px;
   background: #00BCBD;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
