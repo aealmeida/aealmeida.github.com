@@ -18,21 +18,21 @@ h1{
 	font-size: 36px;
 }
 
-h3{
+h2{
 	color:white;
 	font-family: QuatroSlab;
 	font-style: "regular";
 	font-size: 24px;
 }
 
-h4{
+h3{
 	color:#919699;
 	font-weight: 200;
 	font-style: "Book";
 	font-size: 16px;
 }
 
-h5{
+h4{
 	color:#1fbec0;
 	font-weight: 200;
 	font-style: "regular";
@@ -52,7 +52,7 @@ section{
 	padding-bottom: 70px;
 }
 
-hr{
+hr {
 	border: 0;
     height: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
