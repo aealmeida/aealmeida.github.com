@@ -12,6 +12,21 @@ body{
 	text-align: left;
 }
 
+.logo{
+	height: 75px;
+	width: 75px;
+}
+
+.anchor{
+	height: 800px;
+	width: 575px;
+}
+
+.film{
+	height: 600px;
+	width: 575px;
+}
+
 h1{
 	color:white;
 	font-family: QuatroSlab;
@@ -50,13 +65,13 @@ section{
 	display:inline-block;
 	padding-top: 70px;
 	padding-bottom: 70px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-hr {
-	border: 0;
-    height: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+.ProductInfo{
+	float: left;
+	width: 400px;
+	margin-right: 100px;
 }
 
 a{
@@ -77,4 +92,9 @@ button {
 button:hover {
   background: #1bf5f5;
   text-decoration: none;
+}
+
+.made{
+  display: block; 
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.3);
 }
