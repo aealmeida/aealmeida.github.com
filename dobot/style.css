@@ -2,6 +2,7 @@ body{
 	background-color: #1b2326;
 	color:white;
 	font-family:"LFT Etica";
+	border-top: 2px solid #f66a5f;
 }
 
 #page-wrap {
