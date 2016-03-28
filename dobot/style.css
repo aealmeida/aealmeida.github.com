@@ -6,7 +6,7 @@ body{
 
 #page-wrap {
 	position: relative;
-	width: 1000px;
+	width: 1080px;
 	margin: auto;
 	text-align: left;
 }
@@ -37,6 +37,8 @@ h2{
 	font-family: QuatroSlab;
 	font-style: "regular";
 	font-size: 24px;
+	border-top: 1px dotted rgba(255, 255, 255, 0.3);
+	padding-top: 36px;
 }
 
 h3{
@@ -51,6 +53,7 @@ h4{
 	font-weight: 200;
 	font-style: "regular";
 	font-size: 16px;
+	padding-bottom: 18px;
 }
 
 p{
@@ -80,12 +83,14 @@ a{
 
 button {
   border-radius: 0px;
+  border: 1px solid #55d8d9;
   font-style: "semibold";
   color: #ffffff;
   font-size: 14px;
   background: #00BCBD;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  margin-left: 25px;
 }
 
 button:hover {
@@ -94,6 +99,5 @@ button:hover {
 }
 
 .made{
-  display: block; 
-  border-bottom: 1px dotted rgba(255, 255, 255, 0.3);
+  display: inline-block; 
 }
