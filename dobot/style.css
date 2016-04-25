@@ -73,6 +73,9 @@ section{
 	display:inline-block;
 	padding-top: 70px;
 	padding-bottom: 70px;
+}
+
+section:not(:last-of-type){
 	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
@@ -97,6 +100,7 @@ button {
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   margin-left: 25px;
+  text-transform: uppercase;
 }
 
 button:hover {
