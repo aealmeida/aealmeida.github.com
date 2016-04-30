@@ -1,0 +1,132 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	background-color: #212121;
+	color: white;
+	font-family: Gotham HTF;
+	font-weight: 100;
+    letter-spacing: 2px; 
+}
+
+header{
+    text-align: center;
+}
+
+.logo{
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+.homelogo{
+	margin-top: 336px;
+	margin-bottom: 336px;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-size: 23px;
+}
+
+.kasitalogo{
+	height: 228px;
+	width: 228px;
+}
+
+.dreamcover{
+	height: 228px;
+	width: 228px;
+}
+
+.harvardsquare{
+	height: 228px;
+	width: 228px;
+}
+
+.me{
+	height: 237px;
+	width: 298px;
+}
+
+.contactstuff{
+	height: 260px;
+	width: 761px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.enterbutton {
+  	background: #3498db;
+  	background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  	background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+ 	background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  	background-image: -o-linear-gradient(top, #3498db, #2980b9);
+ 	background-image: linear-gradient(to bottom, #3498db, #2980b9);
+ 	-webkit-border-radius: 0;
+  	-moz-border-radius: 0;
+  	border-radius: 0px;
+  	color: #ffffff;
+  	font-size: 14px;
+  	font-family: Gotham HTF;
+  	font-weight: 100;
+  	letter-spacing: 2px;
+  	background: #212121;
+  	padding: 10px 20px 10px 20px;
+  	border: solid #ffffff .5px;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	text-align: center;
+}
+
+.enterbutton:hover {
+  	background: #474747;
+  	text-decoration: none;
+}
+
+.navlink{
+	color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+}
