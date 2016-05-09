@@ -18,7 +18,6 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -48,7 +47,6 @@ body {
 	font-family: Helvetica;
 	font-weight: 100;
     letter-spacing: 2px; 
-    font-style: 
 }
 
 header{
@@ -58,6 +56,8 @@ header{
 .logo{
     font-size: 23px;
     text-transform: uppercase;
+    margin-top: 64px;
+    margin-bottom: 32px;
 }
 
 .homelogo{
@@ -68,34 +68,81 @@ header{
 h2 {
 	text-transform: uppercase;
 	font-size: 23px;
+	font-weight: 500;
+	margin-left: 270px;
+	margin-top: 32px;
+	margin-bottom: 32px;
 }
 
-.kasitalogo{
-	height: 228px;
-	width: 228px;
+h3{
+	font-size: 14px;
+	margin-top: 17px;
 }
 
-.dreamcover{
-	height: 228px;
-	width: 228px;
+h4{
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 17px;
 }
 
-.harvardsquare{
-	height: 228px;
-	width: 228px;
+h5{
+	text-transform: uppercase;
+	font-size: 23px;
+	font-weight: 500;
+	margin-left: 270px;
+	line-height: 30px;
+	margin-top: 72px;
+}
+
+p{
+	font-family: Georgia, serif;
+	font-size: 12px;
+	margin-top: 17px;
+	line-height: 17px;
+}
+
+.AboutMe{
+	float: right;
+	width: 387px;
+	margin-right: 380px;
+	margin-top: 72px;
+	line-height: 17px;
+}
+
+.projects{
+	margin-right: auto;
+	margin-left: auto;
+	width: 749px;
+}
+
+.project{
+	width: 30%;
+	margin-right: ;
+	display: inline-block;
+}
+
+.project:hover {
+  	opacity: .75;
+}
+
+.project img{
+	width:100%;
 }
 
 .me{
-	height: 237px;
-	width: 298px;
+	width: 299px;
+	height: 238px;
+	margin-left: 332px;
+	margin-top: 89px;
 }
 
 .contactstuff{
 	height: 260px;
 	width: 761px;
 	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
+  	margin-left: 305px;
+  	margin-top: 150px;
 }
 
 .enterbutton {
@@ -130,4 +177,48 @@ h2 {
 	color: white;
     font-size: 14px;
     text-transform: uppercase;
+    text-decoration: none;
+}
+
+.ProjectInfo{
+	width: 550px;
+	margin-left: 270px;
+	margin-top: 21px;
+	line-height: 32px;
+}
+
+.kasitalogo{
+	display: block;
+	margin-top: 62px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 298px;
+	width: 298px;
+}
+
+.biggerpics{
+	display: block;
+	margin-top: 62px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 848px;
+	height: 566px;
+}
+
+.screenshots{
+	display: block;
+	margin-top: 62px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 768px;
+	width: 436px;
+}
+
+.songs{
+	display: block;
+	margin-top: 62px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 768px;
+	width: 502px;
 }
